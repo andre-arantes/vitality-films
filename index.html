@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitality Films</title>
+    <!--Bootstrap Installation-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--CSS, JS-->
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Poppins:ital,wght@0,400;0,700;1,200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html" style="width: 25%;">
+                    <img class="w-25" src="images/pngwing.com.png" />
+                    <span>Vitality Films</span>
+                </a>
+                <a class="navbar-brand"></a>
+                <form id="form">
+                    <input type="text" id="input-search" placeholder="Buscar..." class="search" />
+                    <a href="pesquisa.html" class="btn btn-outline-light">Pesquisar</a>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <h1>Filmes Populares</h1>
+        <div class="container-fluid">
+            <div class="row justify-content-center" id="divListaFilmes">
+                <div class="card text-center col-2 bg-transparent border-dark mb-3">
+                    <img src="https://picsum.photos/200/160" class="card-img-top" alt="Filme XPTO">
+                    <div class="card-body">
+                        <h5 class="card-title">Filme</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <a href="detalhes_filme.html?id=550" class="btn btn-outline-light">Veja mais...</a>
+                    </div>
+                    <div class="card-footer"></div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
