@@ -31,7 +31,7 @@ const mostraErro = (data) => {
 
 const init = () => {
     let xhr = new XMLHttpRequest();
-    let url = "http://api.themoviedb.org/3/movie/popular?api_key=a8bf1f725f0d452702d7b1955b7e461b&language=pt-BR"
+    let url = "https://api.themoviedb.org/3/movie/popular?api_key=a8bf1f725f0d452702d7b1955b7e461b&language=pt-BR"
     xhr.onload = mostraFilmes;
     xhr.onerror = mostraErro;
     xhr.open ('GET', url, true);
